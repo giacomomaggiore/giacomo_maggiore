@@ -21,8 +21,6 @@ function update_moodboard(){
 function update(){
     let timerId = setInterval(() => {
         update_sottotitolo()
-        update_moodboard()
-
 
     }, 800);
 }
