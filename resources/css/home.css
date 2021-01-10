@@ -1,0 +1,41 @@
+.sottotitolo{
+    color: red;
+    font-size: 200%;
+    
+}
+
+.home{
+    border: 1px solid red;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.giacomo-maggiore{
+    font-size: 500%;
+}
+
+.current-moodboard{
+    width: 80%;
+    border: 1px solid green;
+}
+
+.current-moodboard-titolo{
+    padding-top: 70px;
+    font-size: 200%;
+}
+
+.current-moodboard-img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.current-moodboard-sequence{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.current-moodboard-sequence-img{
+    width: 16%;
+    
+}

@@ -1,0 +1,21 @@
+a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;  
+}
+
+.menu{
+    line-height: 0.8;
+
+
+    font-size: 120%;
+
+    position: fixed;
+    
+    top: 8%;
+    left: 1%;
+}
