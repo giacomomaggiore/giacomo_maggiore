@@ -1,13 +1,14 @@
 .sottotitolo{
     color: red;
+}
+
+h3{
     font-size: 180%;
-    
 }
 
 .home{
     /* border: 1px solid red; */
     padding-top: 20px;
-    padding-left: 40px;
 }
 
 .giacomo-maggiore{
@@ -16,12 +17,12 @@
 
 .current-moodboard{
     width: 70%;
+    
     /* border: 1px solid green; */
 }
 
 .current-moodboard-titolo{
     padding-top: 30px;
-    font-size: 180%;
 }
 
 .current-moodboard-img{

@@ -1,0 +1,18 @@
+.sub-container-sottotitolo{
+    font-size: 250%;
+}
+
+.sub-container p{
+    font-size: 150%;
+}
+
+.music-background{
+    background-image: url("https://hyponik.com/wp-content/uploads/2014/12/record-shop-for-nov.jpg");
+    width: 80%;
+}
+
+iframe{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
