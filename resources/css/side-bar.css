@@ -19,3 +19,11 @@ a:hover{
     top: 8%;
     left: 1%;
 }
+
+/*CSS PER RENDERE LA PAGINA RESPONSIVE
+
+per gestire il comportamento della pagina in dispositivi con 
+window.innerWidth (larghezza della pagina) minore di 1000 px si faccia
+riferimento a index.js
+*/
+

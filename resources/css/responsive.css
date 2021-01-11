@@ -1,0 +1,27 @@
+/* responsive.css
+
+in questo css vengono gestite le proprietà responsive per pagine
+con larghezza fino a un certo limite.
+
+Il resto viene gestito in index.js
+
+*/
+
+
+@media screen and (max-width: 1599px) {
+    .menu {
+      font-size: 100%;    
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .menu {
+      font-size: 85%;    
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .menu {
+      font-size: 70%;    
+    }
+}

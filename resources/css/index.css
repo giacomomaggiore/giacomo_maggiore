@@ -30,16 +30,17 @@ body{
     width: 85%;
     height: inherit;
 
-    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
     background-color: #fec63d;
 
     padding-left: 40px;
-    border: 3px solid blue;
 }
 
+.container::-webkit-scrollbar {
+    display: none;
+  }
 
 
-.sub-container{
-    padding-top: 50px;
-}
+

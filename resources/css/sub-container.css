@@ -2,6 +2,12 @@
     font-size: 250%;
 }
 
+
+.sub-container{
+    padding-top: 80px;
+}
+
+
 .sub-container p{
     font-size: 150%;
 }
@@ -12,7 +18,7 @@
 }
 
 iframe{
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 40px;
     padding-bottom: 10px;
 }
