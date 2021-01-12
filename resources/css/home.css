@@ -12,7 +12,7 @@ h3{
 }
 
 .giacomo-maggiore{
-    font-size: 300%;
+    font-size: 350%;
 }
 
 .current-moodboard{
@@ -37,6 +37,29 @@ h3{
 }
 
 .current-moodboard-sequence-img{
-    width: 15.5%;
+    width: 100%;
     
+}
+
+.current-moodboard-sequence button{
+    background-color: rgba(1, 1, 1, 0);
+    border: 1px solid transparent;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.current-moodboard-sequence button:hover{
+    background-color: rgba(1, 1, 1, 0);
+    transform: scale(1.15);
+    border-style: none;    
+}
+
+.current-moodboard-sequence button:focus{
+    background-color: rgba(1, 1, 1, 0);
+    border-style: none;
+    outline: none;
 }

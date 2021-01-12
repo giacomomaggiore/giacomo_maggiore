@@ -110,6 +110,20 @@ function controllo_larghezza_pagina(){
 }
 
 
+function cambio_foto(immagine){
+    let nuova = immagine.children[0]
+    let vecchia = document.querySelector(".current-moodboard-img")
+
+    let nuova_src = nuova.src
+    let vecchia_src = vecchia.src
+
+    nuova.src = vecchia_src
+    vecchia.src = nuova_src
+
+    
+
+    
+}
 
 
 //******************************************************************************************************************************************
