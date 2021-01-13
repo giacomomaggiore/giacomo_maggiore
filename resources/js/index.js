@@ -9,17 +9,10 @@
 
 */
 
-
-
-
-
 /* DEFINIZIONE VARIABILI */
 
 var larghezza_pagina = window.innerWidth
 var altezza_pagina = window.innerHeight
-
-console.log(larghezza_pagina)
-
 
 const larghezza_limite = 1000
 /*la variabile larghezza limite definisce il limite minimo della larghezza 
@@ -31,7 +24,7 @@ var container = document.querySelector(".container")
 
 
 var sottotitolo = document.querySelector(".sottotitolo")
-var sottotitolo_values = ["programmer", "runner", "student", "design passionate", "architecture enthusiastic", "tech guy", ]
+var sottotitolo_values = ["programmer", "runner", "student", "design passionate", "architecture enthusiastic", "tech guy", "book eater" ]
 
 var current_moodboard_img = document.querySelector(".current-moodboard-img")
 var current_moodboard = document.querySelector(".current-moodboard")
@@ -54,13 +47,6 @@ function update_sottotitolo(){
         sottotitolo.innerHTML = sottotitolo_values[0]
     }
 }
-
-function update_moodboard(){
-    let nome_provvisorio = moodboard_array[Math.floor(Math.random() * moodboard_array.length)]
-    console.log(nome_provvisorio)
-    current_moodboard_img.src = `resources/images/moodboard/${nome_provvisorio}.JPG`
-}
-
 
 function update(){
     let timerId = setInterval(() => {
@@ -100,9 +86,6 @@ function make_mobile_friendly(){
     music_playlist.style.width = "90%"
 }
 
-
-
-
 function controllo_larghezza_pagina(){
 
     /*funzione che controlla le dimensioni della pagina per eventulamente
@@ -113,7 +96,8 @@ function controllo_larghezza_pagina(){
     }
 }
 
-
+/* ***********************************************************************************************************************************************
+cambio di foto centrale del current moodboard quando ne viene cliccata un'altra */
 function cambio_foto(immagine){
     let nuova = immagine.children[0]
     let vecchia = document.querySelector(".current-moodboard-img")
@@ -123,9 +107,6 @@ function cambio_foto(immagine){
 
     nuova.src = vecchia_src
     vecchia.src = nuova_src
-
-    
-
     
 }
 

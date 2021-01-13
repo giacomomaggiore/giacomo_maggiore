@@ -5,9 +5,7 @@
       
 }
 
-.social-link{
-    
-
+.social-link{  
     float: right;
     height: 100%;
     object-fit: contain;
@@ -18,3 +16,6 @@
     height: inherit;
 }
 
+.social-img:hover{
+    filter: invert(100%);
+}

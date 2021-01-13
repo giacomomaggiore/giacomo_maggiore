@@ -5,6 +5,7 @@
 
 html{
     height: 100%;
+    
 
 }
 
@@ -26,12 +27,18 @@ body{
     
 }
 
-.container{
+.container{  
     width: 85%;
     height: inherit;
 
+    /*il container ha le dimensioni di una pagina solo che si scrolla
+    la scroll bar NON è visibile */
     overflow-x: hidden;
     overflow-y: scroll;
+
+    scroll-behavior: smooth;
+
+
 
     background-color: #fec63d;
 
