@@ -91,7 +91,7 @@ function controllo_larghezza_pagina(){
     /*funzione che controlla le dimensioni della pagina per eventulamente
     chiamare la funzione make_mobile_friendly */
     
-    if (larghezza_pagina < larghezza_limite){
+    if (larghezza_pagina < larghezza_limite || larghezza_pagina / altezza_pagina < 1){
         make_mobile_friendly()
     }
 }

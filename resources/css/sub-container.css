@@ -12,8 +12,11 @@
 
 .music-background{
     background-image: url("https://hyponik.com/wp-content/uploads/2014/12/record-shop-for-nov.jpg");
+    display: block
+
     width: 80%;
 }
+
 
 iframe{
     padding-top: 50px;
