@@ -27,6 +27,8 @@ della pagina per cui viene mostrata la side bar  */
 
 var body = document.querySelector("body")
 var side_bar = document.querySelector(".side-bar")
+var container = document.querySelector(".container")
+
 
 var sottotitolo = document.querySelector(".sottotitolo")
 var sottotitolo_values = ["programmer", "runner", "student", "design passionate", "architecture enthusiastic", "tech guy", ]
@@ -85,6 +87,8 @@ function make_mobile_friendly(){
     e ridimensionando tutti i div*/
 
     body.removeChild(side_bar)
+
+    container.style.width = "100%"
 
     current_moodboard.style.width = "95%"
     music_background.style.width = "95%"
