@@ -30,7 +30,7 @@ della pagina per cui viene mostrata la side bar  */
 var body = document.querySelector("body")
 var side_bar = document.querySelector(".side-bar")
 var container = document.querySelector(".container")
-
+var content = document.querySelector(".content")
 
 var sottotitolo = document.querySelector(".sottotitolo")
 var sottotitolo_values = ["programmer", "runner", "student", "design passionate", "architecture enthusiastic", "tech guy", "book eater" ]
@@ -85,8 +85,11 @@ function make_mobile_friendly(){
 
     container.style.width = "100%"
 
+    content.style.width = "95%"
+
     current_moodboard.style.width = "95%"
     music_background.style.width = "95%"
+
 
     /* styling della playlist di spotify nell'iframe */
     music_playlist.style.paddingTop = "0px"
