@@ -1,9 +1,18 @@
 /* index.js 
+TO DO
+- buttons for current moodboard mobile
 
 
+- pubblicare su HOSTINGER ENTRO IL WEEKEND
+
+ROYALTY FREE IMAGES
+https://www.pexels.com/royalty-free-images
+https://pixabay.com
 
 
-
+HOSTING
+Hostinger 0.99e/mese ma vincolato per 4 anni
+GoDaddy 1,22e/mese + dominio gratis
 
 
 
@@ -80,10 +89,10 @@ function make_mobile_friendly(){
     music_background.style.width = "95%"
 
     /* styling della playlist di spotify nell'iframe */
-    music_playlist.style.paddingTop = "5px"
-    music_playlist.style.paddingLeft = "5px"
-    music_playlist.style.paddingBottom = "5px"
-    music_playlist.style.width = "90%"
+    music_playlist.style.paddingTop = "0px"
+    music_playlist.style.paddingLeft = "0px"
+    music_playlist.style.paddingBottom = "0px"
+    music_playlist.style.width = "100%"
 }
 
 function controllo_larghezza_pagina(){

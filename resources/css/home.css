@@ -16,10 +16,11 @@ h3{
 }
 
 .current-moodboard{
-    width: 70%;
+    width: 100%;
     
     /* border: 1px solid green; */
 }
+
 
 .current-moodboard-titolo{
     padding-top: 30px;

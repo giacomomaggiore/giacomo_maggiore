@@ -12,16 +12,26 @@ Il resto viene gestito in index.js
     .menu {
       font-size: 100%;    
     }
+
+    p{
+      font-size: 135%;
+    }
 }
 
 @media screen and (max-width: 1400px) {
     .menu {
       font-size: 85%;    
     }
+    p{
+      font-size: 120%;
+    }
 }
 
 @media screen and (max-width: 1250px) {
     .menu {
       font-size: 70%;    
+    }
+    p{
+      font-size: 100%;
     }
 }

@@ -49,5 +49,7 @@ body{
     display: none;
   }
 
-
+.content{
+    width: 80%;
+}
 
