@@ -1,20 +1,13 @@
 /* index.js 
 TO DO
-- buttons for current moodboard mobile
-
+- doppio current moodboard sequence su due livelli per mobile
 
 - pubblicare su HOSTINGER ENTRO IL WEEKEND
 
 ROYALTY FREE IMAGES
 https://www.pexels.com/royalty-free-images
 https://pixabay.com
-
-
-HOSTING
-Hostinger 0.99e/mese ma vincolato per 4 anni
-GoDaddy 1,22e/mese + dominio gratis
-
-
+https://unsplash.com
 
 */
 

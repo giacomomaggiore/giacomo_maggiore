@@ -11,14 +11,15 @@
 }
 
 .music-background{
-    background-image: url("https://hyponik.com/wp-content/uploads/2014/12/record-shop-for-nov.jpg"); 
-    display: block
+    background-image: url("/resources/images/music/vinili.jpg");
+    background-size:cover;
+    
 
-    width: 80%;
 }
 
 .music-background:hover{
-    background-image: url("https://s7d2.scene7.com/is/image/TWCNews/110219_spec_waterloo_records_record");
+    background-image: url("/resources/images/music/concerto.jpg");
+    background-size:cover;
 }
 
 iframe{
