@@ -31,6 +31,13 @@ var sottotitolo_values = ["programmer", "runner", "student", "design passionate"
 var current_moodboard_img = document.querySelector(".current-moodboard-img")
 var current_moodboard = document.querySelector(".current-moodboard")
 
+var seconda_riga = document.querySelector("#seconda-riga")
+
+var img_4 = document.querySelector("#img-4")
+var img_5 = document.querySelector("#img-5")
+var img_6 = document.querySelector("#img-6")
+
+
 var music_background = document.querySelector(".music-background")
 var music_playlist = document.querySelector(".music-playlist")
 
@@ -83,12 +90,24 @@ function make_mobile_friendly(){
     current_moodboard.style.width = "95%"
     music_background.style.width = "95%"
 
+    /* aggiunta della seconda sequence nel current moodboard */
+
+
+    seconda_riga.appendChild(img_4)
+    seconda_riga.appendChild(img_5)
+    seconda_riga.appendChild(img_6)
+
+    curr
+
 
     /* styling della playlist di spotify nell'iframe */
     music_playlist.style.paddingTop = "0px"
     music_playlist.style.paddingLeft = "0px"
     music_playlist.style.paddingBottom = "0px"
     music_playlist.style.width = "100%"
+
+
+
 }
 
 function controllo_larghezza_pagina(){
