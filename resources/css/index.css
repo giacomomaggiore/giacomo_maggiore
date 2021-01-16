@@ -9,6 +9,10 @@ html{
 
 }
 
+span:hover{
+    color: white;
+}
+
 body{
     display: flex;
     height: inherit;

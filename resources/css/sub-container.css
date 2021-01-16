@@ -11,14 +11,14 @@
 }
 
 .music-background{
-    background-image: url("/resources/images/music/vinili.jpg");
+    background-image: url("/resources/images/music/concerto.jpg");
     background-size:cover;
     
 
 }
 
 .music-background:hover{
-    background-image: url("/resources/images/music/concerto.jpg");
+    background-image: url("/resources/images/music/vinili.jpg");
     background-size:cover;
 }
 
