@@ -97,7 +97,7 @@ function make_mobile_friendly(){
     seconda_riga.appendChild(img_5)
     seconda_riga.appendChild(img_6)
 
-    curr
+    
 
 
     /* styling della playlist di spotify nell'iframe */
