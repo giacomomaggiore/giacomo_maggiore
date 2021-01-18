@@ -6,10 +6,6 @@
     padding-top: 150px;
 }
 
-.sub-container p{
-    font-size: 150%;
-}
-
 .music-background{
     background-image: url("/resources/images/music/concerto.jpg");
     background-size:cover;

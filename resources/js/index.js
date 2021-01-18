@@ -20,10 +20,19 @@ const larghezza_limite = 1000
 /*la variabile larghezza limite definisce il limite minimo della larghezza 
 della pagina per cui viene mostrata la side bar  */
 
+
+var h3 = document.querySelector("h3")
+var paragrafo_about = document.querySelector(".paragrafo-about")
+var paragrafo_portfolio = document.querySelector(".paragrafo-portfolio")
+var paragrafo_music = document.querySelector(".paragrafo-music")
+
 var body = document.querySelector("body")
 var side_bar = document.querySelector(".side-bar")
 var container = document.querySelector(".container")
 var content = document.querySelector(".content")
+var social_bar = document.querySelector(".social-bar")
+
+var giacomo_maggiore = document.querySelector(".giacomo-maggiore")
 
 var sottotitolo = document.querySelector(".sottotitolo")
 var sottotitolo_values = ["programmer", "runner", "student", "design passionate", "architecture enthusiastic", "tech guy", "book eater" ]
@@ -82,10 +91,22 @@ function make_mobile_friendly(){
     e ridimensionando tutti i div*/
 
     body.removeChild(side_bar)
+    
+    console.log(paragrafo_about)
+    console.log(paragrafo_portfolio)
+    console.log(paragrafo_music)
+    paragrafo_about.style.fontSize = "200%"
+    paragrafo_portfolio.style.fontSize = "200%"
+    paragrafo_music.style.fontSize = "200%"
+
+    h3.style.fontSize = "250%"
+    giacomo_maggiore.style.fontSize = "400%"
 
     container.style.width = "100%"
 
     content.style.width = "95%"
+
+    social_bar.style.height = "60px"
 
     current_moodboard.style.width = "95%"
     music_background.style.width = "95%"
