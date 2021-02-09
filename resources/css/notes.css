@@ -1,0 +1,33 @@
+.titolo-articolo{
+    line-height: 80%;
+}
+
+.articolo{
+    width: 100%;
+    display: flex;
+}
+
+.articolo-container{
+    width: 100%;
+}
+
+
+.testo-articolo{
+    width: 74%;
+}
+
+.foto-articolo{
+    width: 35%;
+    text-align: center;
+}
+
+.articolo-heading{
+    margin-top: 30px;
+}
+
+.immagine-articolo{
+    width: 85%;
+    margin-bottom: 10px;
+    object-fit: contain;
+    
+}

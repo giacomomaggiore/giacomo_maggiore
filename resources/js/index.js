@@ -9,6 +9,13 @@ https://www.pexels.com/royalty-free-images
 https://pixabay.com
 https://unsplash.com
 
+MOBILE CHANGES
+- sfondo spotify cambio
+- dimensioni spotify
+- titoli più grandi
+-
+
+
 */
 
 /* DEFINIZIONE VARIABILI */
@@ -21,7 +28,7 @@ const larghezza_limite = 1000
 della pagina per cui viene mostrata la side bar  */
 
 
-var h3 = document.querySelector("h3")
+var h3 = document.querySelectorAll("h3")
 var paragrafo_about = document.querySelector(".paragrafo-about")
 var paragrafo_portfolio = document.querySelector(".paragrafo-portfolio")
 var paragrafo_music = document.querySelector(".paragrafo-music")
@@ -36,6 +43,8 @@ var giacomo_maggiore = document.querySelector(".giacomo-maggiore")
 
 var sottotitolo = document.querySelector(".sottotitolo")
 var sottotitolo_values = ["programmer", "runner", "student", "design passionate", "architecture enthusiastic", "tech guy", "book eater" ]
+
+var sub_container_sottotitolo = document.querySelectorAll(".sub-container-sottotitolo")
 
 var current_moodboard_img = document.querySelector(".current-moodboard-img")
 var current_moodboard = document.querySelector(".current-moodboard")
@@ -87,6 +96,7 @@ dai */
 
 
 function make_mobile_friendly(){
+    console.log("MOBILE FRIENDLY DONE!")
     /*funzione che rende mobile friendly la pagina eliminando la side-bar
     e ridimensionando tutti i div*/
 
@@ -99,7 +109,11 @@ function make_mobile_friendly(){
     paragrafo_portfolio.style.fontSize = "200%"
     paragrafo_music.style.fontSize = "200%"
 
-    h3.style.fontSize = "250%"
+    //cambio di dimensione di tutti i sottotitoli tramite iterazione nella lista h3
+    for (i = 0; i < h3.length; i++){
+        h3[i].style.fontSize = "350%"
+    }
+    
     giacomo_maggiore.style.fontSize = "400%"
 
     container.style.width = "100%"
@@ -110,6 +124,8 @@ function make_mobile_friendly(){
 
     current_moodboard.style.width = "95%"
     music_background.style.width = "95%"
+    music_background.style.backgroundImage = "none"
+    music_background.style.backgroundColor = "trasparent"
 
     /* aggiunta della seconda sequence nel current moodboard */
 
